@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Calendar-Container {
+    width: 98%;
+    aspect-ratio: 7/3;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 10px;
+}
+
+.Square {
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+.Rectangle-Wide {
+    grid-column: span 2;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+.Rectangle-Tall {
+    grid-row: span 2;
+    background-color: palevioletred;
+    border-radius: 15px;
+}
