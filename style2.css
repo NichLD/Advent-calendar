@@ -17,6 +17,11 @@ body {
     grid-gap: 10px;
 }
 
+img {
+    height: 110%;
+    width: auto;
+}
+
 .Square {
     background-color: blueviolet;
     border-radius: 15px;
@@ -25,9 +30,11 @@ body {
     grid-column: span 2;
     background-color: aquamarine;
     border-radius: 15px;
+    overflow: hidden;
 }
 .Rectangle-Tall {
     grid-row: span 2;
     background-color: palevioletred;
     border-radius: 15px;
+    overflow: hidden;
 }

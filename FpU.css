@@ -1,0 +1,112 @@
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    height: 100px;
+    background-color: white;
+}
+
+main {
+    align-self: center;
+    height: 1300px;
+    width: 80%;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.Graphic {
+    background-color: #1C2536;
+    height: 1300px;
+    width: 1300px;
+}
+
+.TopPart {
+    background-color: #1C2536;
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.TopPartForPerson {
+    background-color: black;
+    width: 1240px;
+    height: 490px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.HeartCases {
+    background-color: #F7F6F7;
+    width: 100%;
+    height: 200px;
+}
+
+.BottomPart {
+    height: 480px;
+    display: flex;
+    justify-content: center;
+}
+
+.WhiteBackgroundForImage {
+    background-color: #F7F6F7;
+    height: 490px;
+    width: 490px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FPUBanner {
+    height: 100%;
+}
+
+.ImageRules {
+    width: 92%;
+    height: 92%;
+}
+
+.ProfilePicture {
+    height: 100%;
+    width: 100%;
+    border-radius: 17px;
+    object-fit: cover;
+}
+
+.LocalPartyLogo {
+    background-color: #F7F6F7;
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: right;
+    align-items: center;
+    align-self: top;
+}
+
+.FpULocalPartyName {
+    font-size: 40px;
+}
+
+.FpULogo {
+    aspect-ratio: 1/1;
+    height: 80px;
+    margin: 10px;
+}
